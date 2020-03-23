@@ -155,30 +155,39 @@
 
 /* exercise 13 */
 .ex-13-button:hover .ex-13-top-white {
-    animation: translate-top-13 3s linear;
+    animation: translate-top-13 2s linear;
 }
 
 @keyframes translate-top-13 {
     0% {
-       left: 10%;
+        left: 10%;
+        top: -10px;
     }
 
-    25% {
-        left: 100%;
+    20% {
+        left: 90%;
+        top: -10px;
     }
 
-    50% {
-        left: 0;
+    40% {
+        left: 90%;
         top: 100%;
     }
 
-    75% {
-       left: -100%;
+    60% {
+        left: -15px;
+        top: 100%;
     }
 
+    90% {
+        left: -15px;
+        top: -10px;
+    }
     100% {
         left: 10%;
+        top: -10px;
     }
+     
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
@@ -186,5 +195,32 @@
 }
 
 @keyframes translate-bottom-13 {
-    
+    0% {
+        right: 20%;
+        bottom: -10px;
+    }
+
+    20% {
+        right: 80%;
+        bottom: -10px;
+    }
+
+    40% {
+        right: 80%;
+        bottom: 100%;
+    }
+
+    60% {
+        right: -15px;
+        bottom: 100%;
+    }
+
+    90% {
+        right: -15px;
+        bottom: -10px;
+    }
+    100% {
+        right: 20%;
+        bottom: -10px;
+    }
 }
